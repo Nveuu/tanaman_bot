@@ -23,9 +23,20 @@ st.set_page_config(
 # NLTK resources setup
 @st.cache_resource
 def setup_nltk():
+    import os
+    # Membuat path khusus di folder /tmp yang diizinkan oleh server cloud
+    nltk_dir = os.path.join('/tmp', 'nltk_data')
+    if not os.path.exists(nltk_dir):
+        os.makedirs(nltk_dir)
+    
+    # Daftarkan path baru ini ke dalam pencarian NLTK
+    nltk.data.path.append(nltk_dir)
+    
     try:
-        nltk.download('punkt', quiet=True)
-        nltk.download('stopwords', quiet=True)
+        # Tambahkan download 'punkt_tab' untuk versi NLTK terbaru
+        nltk.download('punkt', download_dir=nltk_dir, quiet=True)
+        nltk.download('punkt_tab', download_dir=nltk_dir, quiet=True)
+        nltk.download('stopwords', download_dir=nltk_dir, quiet=True)
     except Exception as e:
         st.warning(f"Gagal mengunduh resource NLTK: {e}. Menggunakan fallback tokenizer.")
 
