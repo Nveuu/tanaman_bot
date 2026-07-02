@@ -1,0 +1,285 @@
+[
+  {
+    "tag": "salam",
+    "patterns": [
+      "Halo",
+      "Hai",
+      "Selamat pagi",
+      "Selamat siang",
+      "Selamat sore",
+      "Permisi",
+      "Assalamu'alaikum",
+      "Hallo bot",
+      "Halo min"
+    ],
+    "responses": [
+      "Halo! Selamat datang di Toko Tanaman Hias GreenFlora. Ada yang bisa kami bantu hari ini? 🌱",
+      "Hai! Senang menyapa Anda. Butuh rekomendasi tanaman hias cantik untuk rumah Anda?",
+      "Wa'alaikumussalam/Halo! Selamat datang di GreenFlora. Silakan tanyakan seputar koleksi tanaman hias dan perawatannya."
+    ]
+  },
+  {
+    "tag": "jenis_tanaman",
+    "patterns": [
+      "Ada tanaman apa saja?",
+      "Koleksi tanaman hias",
+      "Jual bunga apa?",
+      "Rekomendasi tanaman indoor",
+      "Tanaman outdoor yang ready",
+      "Mau lihat tanaman hiasnya",
+      "Jenis tanaman hias yang dijual"
+    ],
+    "responses": [
+      "Kami menjual berbagai macam tanaman hias! Koleksi kami meliputi:\n1. Indoor: Monstera Adansonii (Janda Bolong), Aglaonema (Lula, Suksom), Lidah Mertua (Sansevieria), Calathea.\n2. Outdoor: Kembang Sepatu, Mawar, Melati, Bougenville.\n3. Sukulen & Kaktus: Kaktus mini dan berbagai jenis sukulen cantik.\nApakah ada jenis tertentu yang Anda cari?"
+    ]
+  },
+  {
+    "tag": "cara_perawatan",
+    "patterns": [
+      "Bagaimana cara merawat tanaman?",
+      "Cara rawat tanaman hias",
+      "Tips merawat bunga agar subur",
+      "Perawatan tanaman biar tidak layu",
+      "Cara merawat janda bolong"
+    ],
+    "responses": [
+      "Secara umum, tips merawat tanaman hias agar subur:\n1. Siram air secukupnya (biasanya 1-2 kali sehari, pagi atau sore). Jangan sampai air menggenang.\n2. Pastikan pencahayaan cukup sesuai jenisnya (indoor butuh cahaya tidak langsung, outdoor butuh matahari langsung).\n3. Berikan pupuk secara berkala (misal NPK atau pupuk organik setiap 2-4 minggu).\n4. Gunakan media tanam yang porous agar air tidak menggenang."
+    ]
+  },
+  {
+    "tag": "jam_buka",
+    "patterns": [
+      "Jam berapa toko buka?",
+      "Kapan toko buka?",
+      "Tutup jam berapa?",
+      "Jam operasional toko",
+      "Buka hari apa saja?"
+    ],
+    "responses": [
+      "Toko fisik GreenFlora buka setiap hari (Senin - Minggu) mulai pukul 08.00 hingga 17.00 WIB. Untuk pemesanan online bisa dilakukan 24 jam!"
+    ]
+  },
+  {
+    "tag": "lokasi",
+    "patterns": [
+      "Dimana lokasi tokonya?",
+      "Alamat toko dimana?",
+      "Lokasi GreenFlora",
+      "Bisa mampir ke toko?",
+      "Posisi tokonya sebelah mana?"
+    ],
+    "responses": [
+      "Kami berlokasi di Jl. Kebun Raya No. 45, Bogor (dekat pintu masuk Kebun Raya Bogor). Anda juga bisa mencari 'GreenFlora Bogor' di Google Maps untuk rute lengkap."
+    ]
+  },
+  {
+    "tag": "media_tanam",
+    "patterns": [
+      "Media tanam yang bagus apa?",
+      "Pakai tanah apa ya?",
+      "Jual media tanam?",
+      "Tanah humus atau sekam?",
+      "Campuran media tanam"
+    ],
+    "responses": [
+      "Kami menjual media tanam siap pakai campuran tanah humus, sekam bakar, cocopeat, dan pupuk kandang dengan harga Rp 15.000 per karung kecil. Media tanam ini sangat porous dan cocok untuk sebagian besar tanaman hias."
+    ]
+  },
+  {
+    "tag": "harga",
+    "patterns": [
+      "Berapa harga tanamannya?",
+      "Daftar harga bunga",
+      "Kaktus harganya berapa?",
+      "Monstera harganya berapa?",
+      "Apakah harganya mahal?"
+    ],
+    "responses": [
+      "Harga tanaman hias kami sangat bervariasi dan ramah di kantong:\n- Kaktus & Sukulen mini mulai dari Rp 10.000 - Rp 25.000\n- Lidah Mertua mulai dari Rp 20.000\n- Aglaonema mulai dari Rp 45.000 - Rp 150.000\n- Monstera mulai dari Rp 50.000\nSilakan tanyakan tanaman spesifik untuk tahu harga detailnya!"
+    ]
+  },
+  {
+    "tag": "metode_bayar",
+    "patterns": [
+      "Bisa bayar pakai apa saja?",
+      "Terima QRIS?",
+      "Bisa transfer bank?",
+      "Metode pembayaran online",
+      "Bisa COD?"
+    ],
+    "responses": [
+      "Kami menerima pembayaran tunai (offline di toko), transfer bank (BCA, Mandiri, BNI), QRIS (GoPay, OVO, Dana, ShopeePay, LinkAja). Maaf, saat ini kami belum melayani pembayaran COD."
+    ]
+  },
+  {
+    "tag": "ongkir",
+    "patterns": [
+      "Berapa ongkos kirimnya?",
+      "Biaya pengiriman berapa?",
+      "Ada free ongkir?",
+      "Berapa tarif ongkir ke Jakarta?"
+    ],
+    "responses": [
+      "Untuk pengiriman dalam kota Bogor, kami menggunakan GoSend/GrabExpress dengan tarif sesuai aplikasi. Ada promo gratis ongkir untuk area Bogor Kota dengan minimal pembelian Rp 150.000. Untuk luar kota, tarif ekspedisi J&T/JNE dihitung per kilogram."
+    ]
+  },
+  {
+    "tag": "pupuk_hama",
+    "patterns": [
+      "Jual pupuk?",
+      "Tanaman kena kutu putih",
+      "Pemberian pupuk berapa kali?",
+      "Rekomendasi pupuk daun",
+      "Obat hama tanaman"
+    ],
+    "responses": [
+      "Kami menjual pupuk NPK (Rp 10.000/kemasan), pupuk organik kandang (Rp 12.000/karung), dan semprotan anti-hama organik (pestisida nabati) seharga Rp 25.000/botol untuk membasmi kutu putih dan ulat."
+    ]
+  },
+  {
+    "tag": "penyiraman",
+    "patterns": [
+      "Siram tanaman berapa kali?",
+      "Kapan harus menyiram?",
+      "Boleh disiram tiap hari?",
+      "Aturan menyiram kaktus"
+    ],
+    "responses": [
+      "Untuk tanaman hias daun (seperti Monstera, Calathea), siramlah 1-2 kali sehari jika cuaca panas, atau 2 hari sekali jika media masih lembap. Untuk kaktus/sukulen, cukup siram 1 kali seminggu atau ketika media tanamnya benar-benar kering total."
+    ]
+  },
+  {
+    "tag": "ongkos_kirim_luar",
+    "patterns": [
+      "Kirim ke luar kota aman?",
+      "Apakah tanaman layu di jalan?",
+      "Cara packing tanaman luar kota"
+    ],
+    "responses": [
+      "Sangat aman! Untuk pengiriman luar kota, tanaman akan kami kurangi media tanamnya agar ringan, akarnya dibungkus cocopeat lembap dan plastik, lalu dibungkus kardus tebal khusus tanaman hias. Tanaman tahan di perjalanan hingga 4-5 hari."
+    ]
+  },
+  {
+    "tag": "komplain",
+    "patterns": [
+      "Tanaman saya rusak waktu sampai",
+      "Bisa retur tanaman?",
+      "Garansi tanaman mati",
+      "Komplain pesanan kurang"
+    ],
+    "responses": [
+      "Kami memberikan garansi tanaman diganti baru jika tanaman mati atau patah parah saat sampai. Kirimkan video unboxing tanpa terputus dalam waktu 1x24 jam sejak paket diterima ke nomor WhatsApp Customer Service kami."
+    ]
+  },
+  {
+    "tag": "terima_kasih",
+    "patterns": [
+      "Terima kasih",
+      "Makasih ya min",
+      "Sip thank you",
+      "Sangat membantu"
+    ],
+    "responses": [
+      "Sama-sama! Senang bisa membantu Anda. Selamat bercocok tanam dan semoga tanaman Anda tumbuh subur! 🌱😊",
+      "Kembali kasih. Jika butuh konsultasi tanaman lagi, jangan ragu untuk chat kami kembali!"
+    ]
+  },
+  {
+    "tag": "promo_diskon",
+    "patterns": [
+      "Ada promo apa saja bulan ini?",
+      "Apakah ada diskon untuk pembelian tanaman?",
+      "Info promo GreenFlora",
+      "Ada diskon hari ini?",
+      "Promo tanaman terbaru"
+    ],
+    "responses": [
+      "Saat ini kami sedang ada promo cashback hingga 10% untuk pembayaran menggunakan QRIS, dan diskon 15% khusus untuk pembelian minimal 3 tanaman hias indoor! 🌱",
+      "Dapatkan promo potongan harga untuk koleksi Aglaonema dan Monstera tertentu, serta gratis pupuk organik setiap pembelian di atas Rp 200.000!"
+    ]
+  },
+  {
+    "tag": "sewa_tanaman",
+    "patterns": [
+      "Apakah bisa sewa tanaman untuk kantor?",
+      "Jasa penyewaan tanaman hias",
+      "Bisa rental tanaman untuk event?",
+      "Sewa tanaman bulanan",
+      "Rental pohon/tanaman hias Bogor"
+    ],
+    "responses": [
+      "Ya, GreenFlora menyediakan jasa sewa/rental tanaman hias untuk kantor, hotel, cafe, maupun event seperti pernikahan dan seminar. Layanan kami mencakup perawatan rutin dan penggantian tanaman berkala agar selalu segar. Hubungi CS kami untuk proposal harga!",
+      "Kami melayani rental tanaman hias dengan sistem kontrak bulanan untuk area perkantoran. Paket sewa sudah termasuk perawatan dan rotasi tanaman tiap 2 minggu sekali."
+    ]
+  },
+  {
+    "tag": "pot_tanaman",
+    "patterns": [
+      "Jual pot tanaman juga?",
+      "Jenis pot apa saja yang ready?",
+      "Harga pot bunga hias",
+      "Ada pot bahan apa saja?",
+      "Beli pot tanah liat atau plastik"
+    ],
+    "responses": [
+      "Kami menjual aneka jenis pot hias, mulai dari pot plastik warna-warni (Rp 5.000 - Rp 15.000), pot tanah liat/terakota klasik (Rp 15.000 - Rp 50.000), hingga pot keramik premium berpola cantik (Rp 35.000 - Rp 120.000).",
+      "Tersedia berbagai pilihan pot untuk melengkapi tanaman hias Anda! Mulai dari pot gantung, pot dinding, pot plastik, pot tanah liat, hingga pot semen minimalis."
+    ]
+  },
+  {
+    "tag": "kado_hampers",
+    "patterns": [
+      "Bisa buat hampers tanaman?",
+      "Rekomendasi tanaman untuk kado wisuda",
+      "Kado tanaman hias pernikahan",
+      "Jual hampers lebaran/natal tanaman",
+      "Paket hadiah tanaman"
+    ],
+    "responses": [
+      "Kami melayani pembuatan hampers dan gift box tanaman hias kustom untuk momen spesial seperti kelulusan, pernikahan, ulang tahun, hari raya, atau kado peresmian kantor baru. Kemasan sudah termasuk kartu ucapan, pita hias, dan box premium mulai dari Rp 75.000!",
+      "Tentu saja! Tanaman hias sangat cocok dijadikan kado atau hampers yang ramah lingkungan. Kami menyediakan paket hampers kustom lengkap dengan pot hias cantik, pita kado, dan kartu ucapan kustom."
+    ]
+  },
+  {
+    "tag": "dropship_reseller",
+    "patterns": [
+      "Bisa gabung jadi reseller?",
+      "Syarat menjadi dropshipper tanaman",
+      "Apakah menerima dropship?",
+      "Harga grosir untuk reseller",
+      "Cara jualan tanaman sistem dropship"
+    ],
+    "responses": [
+      "Tentu! Kami membuka peluang kerja sama kemitraan untuk Reseller dan Dropshipper seluruh Indonesia. Dapatkan harga khusus grosir tanpa minimum order bagi dropshipper aktif, serta materi foto/video promosi gratis. Silakan chat admin kemitraan kami via WhatsApp untuk informasi pendaftaran!",
+      "Kami menyediakan program dropship tanaman hias dengan jaminan packing aman dan pengiriman menggunakan nama toko Anda. Silakan hubungi CS kami untuk syarat dan ketentuan lengkapnya."
+    ]
+  },
+  {
+    "tag": "tanaman_langka",
+    "patterns": [
+      "Jual tanaman langka?",
+      "Koleksi tanaman varigata collector",
+      "Apakah ada Monstera Variegata?",
+      "Tanaman hias kolektor yang ready",
+      "Cari tanaman hias langka"
+    ],
+    "responses": [
+      "Bagi para kolektor, kami memiliki beberapa koleksi tanaman langka dan varigata premium seperti Monstera Variegata Borsigiana Albo, Philodendron Pink Princess, Philodendron Billietiae Varigata, dan Anthurium Dorayaki. Karena stok sangat terbatas, silakan langsung hubungi kami via WhatsApp untuk foto real pict dan harga terupdate!",
+      "Kami memiliki stok khusus untuk tanaman hias kolektor dan jenis varigata langka. Ketersediaan barang dinamis, sehingga Anda bisa menanyakan langsung daftar tanaman langka terupdate saat ini ke CS."
+    ]
+  },
+  {
+    "tag": "jasa_pembuatan_taman",
+    "patterns": [
+      "Bisa buat taman rumah?",
+      "Jasa pembuatan taman minimalis",
+      "Layanan pembuatan landscaping kebun",
+      "Menerima pembuatan taman Bogor",
+      "Berapa biaya bikin taman depan rumah?"
+    ],
+    "responses": [
+      "GreenFlora menyediakan jasa pembuatan taman (landscaping) untuk rumah tinggal, kantor, sekolah, atau area publik. Tim profesional kami melayani konsultasi desain, survei lokasi, pemilihan tanaman, hingga pemasangan rumput dan elemen dekoratif (vertical garden, kolam mini, jalan setapak). Hubungi kami untuk estimasi biaya gratis!",
+      "Kami melayani pembuatan taman baik gaya minimalis, tropis, modern, maupun vertical garden. Biaya dihitung per meter persegi dan disesuaikan dengan jenis tanaman serta kerumitan desain. Silakan jadwalkan survei lokasi dengan tim kami."
+    ]
+  }
+]
